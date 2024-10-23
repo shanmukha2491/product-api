@@ -1,4 +1,4 @@
-### Project Overview
+# Project Overview
 This project demonstrates how to build RESTful APIs using the Go programming language's standard library. Go's standard library provides robust and efficient packages for HTTP handling, JSON encoding/decoding, and other common tasks required for API development without the need for external libraries.
 
 ## Key Features
@@ -8,14 +8,14 @@ URL Parameters & Query Handling: URL path parameters and query parameters are ma
 Error Handling: Proper error handling mechanisms are incorporated using Go’s built-in error types and status codes.
 API Endpoints
 
-- The project provides the following API endpoints:
+The project provides the following API endpoints:
 
 * GET /: Retrieves all tasks.
 * POST /: Creates a new task.
 * GET /id: Retrieves a specific task by its ID.
 * PUT /id: Updates an existing task.
 
-# Why Use Go Standard Library?
+## Why Use Go Standard Library?
 The decision to use Go's standard library for building APIs ensures:
 
 * Simplicity: By avoiding third-party dependencies, the code remains simple and easy to maintain.
